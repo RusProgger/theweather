@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: 0;
+}
+
+body {
+    background: -webkit-linear-gradient(180deg, rgb(2, 29, 60) 12%, rgb(61, 103, 159) 100%);
+    background: -moz-linear-gradient(180deg, rgb(2, 29, 60) 12%, rgb(61, 103, 159) 100%);
+    background: linear-gradient(180deg, rgb(2, 29, 60) 12%, rgb(61, 103, 159) 100%);
+
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: #fff;
+    width: 500px;
+    height: auto;
+    padding: 28px 30px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #06283d;
+    position: relative;
+}
+
+.search-container .fa-location-dot {
+    font-size: 20px;
+}
+
+.search-container input {
+    color: #06283d;
+    width: 80%;
+    font-size: 25px;
+    font-weight: 300;
+    padding-left: 0;
+    border-bottom: 1px solid #000;
+    
+}
+
+.search-container input::placeholder {
+    color: #06283d;
+    font-size: 19px;
+}
+
+.search-container button {
+    font-size: 20px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #eff2f3;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.search-container button:hover {
+    background-color: rgb(61, 103, 159);
+    color: #fff;
+}
+
+.weather {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.weather .temp {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.weather .weather__city {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.weather__detalis {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 2px;
+}

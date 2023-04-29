@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- standart css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Погода</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="search-container">
+            <i class="fa solid fa-location-dot"></i>
+            <input type="search" placeholder="Введите город">
+            <button class="fa solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="weather">
+            <div class="weather__images">
+                <i class="fa solid fa-cloud"></i>
+            </div>
+
+            <h2 class="temp">&#8451</h2>
+            <h3 class="weather__city">Нет города</h3>
+
+            <div class="weather__detalis">
+                <div class="col">
+                    <i class="fa solid fa-water"></i>
+
+                    <div class="col-parent">
+                        <p class="humidity">0%</p>
+                        <p>Влажность</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <i class="fa solid fa-wind"></i>
+
+                    <div class="col-parent">
+                        <p class="wind">0 км/ч</p>
+                        <p>Ветер</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <p>Автор разработки: Руслан Вороненко. 2023г. <br>&copy;Все права защищены</p>
+        </footer>
+    </div>
+
+
+
+    <script src="./weather.js"></script>
+</body>
+</html>
